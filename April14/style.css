@@ -132,3 +132,50 @@ a:hover {
     margin-bottom: 1rem;
     background-color: #ffaf87;
 }
+
+.recommendation-section{
+    background-color: #ffaf87;
+    padding: 2rem;
+}
+
+.recommendation-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recommendation-card{
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.recommendation-image{
+    /* height: 5rem; */
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.recommendation-card-content{
+    padding: 1rem;
+    text-align: center;
+}
+.subscription-form{
+    padding: 1rem;
+}
+
+.subscription-form input{
+    height: 24px;
+}
+
+.subscription-form button{
+    height: 32px;
+}
+
+footer{
+    padding: 24px;
+    background-color: rgba(4, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+}
